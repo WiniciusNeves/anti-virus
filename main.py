@@ -13,7 +13,7 @@ def verificar_arquivos():
 
     if arquivos_encontrados:
         resultado_label.config(text="Arquivos encontrados:")
-        lista_arquivos.delete(0, tk.END)  # Clear the listbox
+        lista_arquivos.delete(0, tk.END)  
         for arquivo in arquivos_encontrados:
             lista_arquivos.insert(tk.END, arquivo)
     else:
@@ -30,7 +30,6 @@ def excluir_arquivo():
     else:
         resultado_label.config(text="Nenhum arquivo selecionado.")
 
-# Create the main window
 janela = tk.Tk()
 janela.title("Anti-virus")
 
