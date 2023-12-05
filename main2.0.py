@@ -51,7 +51,7 @@ excluir_botao.pack(side=tk.LEFT)
 resultado_label = tk.Label(janela, text="")
 resultado_label.pack()
 
-lista_arquivos = tk.Listbox(janela, selectmode=tk.SINGLE, width=100, height=15)
+lista_arquivos = tk.Listbox(janela, selectmode=tk.SINGLE, width=112, height=16)
 lista_arquivos.pack(pady=10)
 
 janela.mainloop()
