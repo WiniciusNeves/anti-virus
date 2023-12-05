@@ -43,7 +43,7 @@ frame1 = tk.Frame(janela)
 frame1.pack(pady=10)
 
 selecionar_botao = tk.Button(frame1, text="Selecionar pasta/arquivo", command=verificar_arquivos)
-selecionar_botao.pack(side=tk.LEFT, padx=10)
+selecionar_botao.pack(side=tk.LEFT, padx=0)
 
 excluir_botao = tk.Button(frame1, text="Excluir arquivo", command=excluir_arquivo)
 excluir_botao.pack(side=tk.LEFT)
